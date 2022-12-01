@@ -87,19 +87,21 @@ h1{
     bottom: -10%;
 }
 #theme {
-    position: absolute;
     border: 1px solid black;
+    text-align: center;
+    width:200px;
+    height: 100px;
+    margin:auto;
+    margin-top: 2%;
+    font-size: 120%;
 }
 .scenario {
     border: 1px solid black;
-    width: 80%;
+    width: 50%;
     height: 100px;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#scen_1 {
-
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 footer{
     position: absolute;
