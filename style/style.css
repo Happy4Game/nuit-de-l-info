@@ -34,6 +34,7 @@ h1{
 .square{
     width: 285px;
     height: 370px;
+    border-radius: 10%;
 }
 .white-square{
     background-color: white;
