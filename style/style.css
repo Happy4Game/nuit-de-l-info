@@ -121,11 +121,10 @@ h1{
     background-color: #9EDC88;
 }
 footer{
-    position: absolute;
-    width: 100%;
+    position: relative;
+    margin-top: 115px;
     padding: 15px;
     background-color: #E97955;
-    bottom: 0px;
 }
 footer a{
     font-size: 18px;
@@ -134,10 +133,6 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
-}
-footer {
-    position:absolute;
-    padding: 15px;
 }
 .mentions {
     text-align: center;
