@@ -1,0 +1,44 @@
+#question{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+#question p{
+    font-size: 26px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: aliceblue;
+}
+#a{
+    rotate: -20deg;
+    top: 40%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+}
+#b{
+    rotate: -10deg;
+    top: 35%;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+}
+#c{
+    rotate: 10deg;
+    top: 35%;
+    left: 35%;
+    right: 0;
+    bottom: 0;
+}
+#d{
+    rotate: 20deg;
+    top: 40%;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+}
