@@ -107,11 +107,12 @@ h1{
 }
 .scenario {
     width: 50%;
-    height: 100px;
+    height: 70px;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: #ffffff88;
+    text-align: center;
 }
 .bleu_1 {
     background-color: #94D8CC;
@@ -142,4 +143,9 @@ footer.vert_1 {
 }
 .mentions {
     text-align: center;
+}
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
 }
