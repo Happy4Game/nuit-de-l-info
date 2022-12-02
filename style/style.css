@@ -10,12 +10,21 @@ body{
 header{
     background-color: #E97955;
 }
+li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 120%;
+}
+nav {
+    position: absolute;
+    right: 0px;
+    margin-top: -55px;
+}
 h1{
     padding-top: 15px;
     margin-left: 40px;
     padding-bottom: 15px;
 }
-
 #play-btn{
     position: absolute;
     top: 50%;
@@ -87,6 +96,29 @@ h1{
     rotate: -15deg;
     bottom: -10%;
 }
+#theme {
+    text-align: center;
+    width:200px;
+    height: 100px;
+    margin:auto;
+    margin-top: 2%;
+    font-size: 120%;
+    background-color: #ffffff88;
+}
+.scenario {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff88;
+}
+.bleu_1 {
+    background-color: #94D8CC;
+}
+.vert_1 {
+    background-color: #9EDC88;
+}
 footer{
     position: absolute;
     width: 100%;
@@ -101,4 +133,10 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+}
+footer.vert_1 {
+    position:relative;
+    width: 100%;
+    padding: 15px;
+    margin-top: 2%;
 }
