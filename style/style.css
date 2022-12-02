@@ -135,11 +135,9 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-footer.vert_1 {
-    position:relative;
-    width: 100%;
+footer {
+    position:absolute;
     padding: 15px;
-    margin-top: 2%;
 }
 .mentions {
     text-align: center;
